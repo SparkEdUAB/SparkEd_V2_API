@@ -1,8 +1,8 @@
 {
-  "name": "Suped25",
-  "tag": "The eDu tag 3",
-  "isUserAuth": true,
+  "name": "Ed",
+  "tag": "Ed",
+  "isUserAuth": false,
   "isHighSchool": false,
   "isConfigured": true,
-  "server": "http://197.156.96.188"
+  "server": "http://gd"
 }

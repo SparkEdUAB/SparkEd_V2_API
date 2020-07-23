@@ -25,7 +25,7 @@ Schema.details = new SimpleSchema({
 
 Schema.Course = new SimpleSchema({
   name: String,
-  code: Match.Integer,
+  // code: Match.Integer,
   details: Schema.details,
   createdAt: Date,
   createdBy: String,
