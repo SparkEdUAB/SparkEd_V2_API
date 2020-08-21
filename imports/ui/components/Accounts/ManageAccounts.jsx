@@ -156,7 +156,7 @@ export class ManageAccounts extends React.Component {
           if (v === Meteor.userId()) {
             M.toast({ html: '<span >You can\'t delete yourself</span>', classes: 'red' });
             return;
-          } else if (Roles.userIsInRole(Meteor.userId(), ['admin'])) {
+          } else if (Roles.userIsInRole(v, ['admin'])) {
             M.toast({ html: '<span >You can not delete the admin</span>', classes: 'red' });
             return;
           }
